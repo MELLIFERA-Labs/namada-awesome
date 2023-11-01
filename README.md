@@ -111,7 +111,7 @@
 
 | Thanks to                                 | URL                            | types             | network                          | Status |
 | ----------------------------------------- |:------------------------------ |:----------------- |:-------------------------------- |:------ |
-| [LavenderFive](https://lavenderfive.com/) | <https://lavenderfive.com/networks?id=namada> | `snapshot`, `api` | `public-testnet-14.5d79b6958580` | ⚫     |
+| [LavenderFive](https://lavenderfive.com/) | <https://lavenderfive.com/networks?id=namada> | `snapshot`, `api` | `public-testnet-14.5d79b6958580` | 🟡     |
 
 ## You want to get involved? 😍
 
