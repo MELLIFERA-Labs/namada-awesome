@@ -109,9 +109,10 @@
 
 ## ⚙️ Services
 
-| Thanks to                                 | URL                            | types             | network                          | Status |
-| ----------------------------------------- |:------------------------------ |:----------------- |:-------------------------------- |:------ |
-| [LavenderFive](https://lavenderfive.com/) | <https://lavenderfive.com/networks?id=namada> | `snapshot`, `api` | `public-testnet-14.5d79b6958580` | 🟡     |
+| Thanks to                                 | URL                                           | types                                         | network                                               | Status |
+|:----------------------------------------- |:--------------------------------------------- |:--------------------------------------------- |:----------------------------------------------------- |:------ |
+| [LavenderFive](https://lavenderfive.com/) | <https://lavenderfive.com/networks?id=namada> | `snapshot`, `api`                             | [current public testnet](https://namadaexplorer.com/) | 🟡     |
+| [CryptoSJ.net](https://cryptosj.net/)     | <https://cryptosj.net/namadaservice.html>     | `snapshot`,`addrbook`,`rpc`,`genesis` `peers` | [current public testnet](https://namadaexplorer.com/) | 🟡     |
 
 ## You want to get involved? 😍
 
