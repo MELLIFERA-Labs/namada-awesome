@@ -77,9 +77,13 @@
 
 > Unofficial NAMADA Communities
 
-| Thanks to                            | Where?   | Link                          | Language |
-| ------------------------------------ | -------- |:----------------------------- |:-------- |
-| [[NODERS]TEAM](https://noders.team/) | Telegram | <https://t.me/namada_rus/>   | Russian   |
+| Thanks to                                        | Where?   | Link                       | Type          |
+|:------------------------------------------------ | -------- |:-------------------------- |:------------- |
+| [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus> | CIS (Russian) |
+| [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | <https://t.me/Namada_china>  | Chinese       |
+| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>     | Indonesia     |
+| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>  | Turkey        |
+| minajuddin(NAMADA discord member)                | Telegram | <https://t.me/NamadaIndia>   | India         |
 
 ### 📰 Commutity articles
 
