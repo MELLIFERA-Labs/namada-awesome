@@ -71,9 +71,10 @@
 
 #### **Offical NAMADA Communities**
 
-| Where?   | Link                                   | Language |
-| -------- | -------------------------------------- | -------- |
-| Discord  | <https://discord.com/invite/namada>    | English  |
+| Where?   | Link                                | Language |
+| -------- | ----------------------------------- | -------- |
+| Discord  | <https://discord.com/invite/namada> | English  |
+| Telegram | <https://t.me/namadaprotocol>       | English  |
 
 > Unofficial NAMADA Communities
 
