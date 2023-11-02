@@ -80,16 +80,16 @@
 | Thanks to                                        | Where?   | Link                        | Type          |
 |:------------------------------------------------ |:-------- |:--------------------------- |:------------- |
 | [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus/>  | CIS (Russian) |
-| [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | https://t.me/Namada_china   | China         |
-| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | https://t.me/namada_id      | Indonesia     |
-| ffego(NAMADA discord member)                     | Telegram | https://t.me/namadaturkey   | Turkey        |
-| minajuddin(NAMADA discord member)                | Telegram | https://t.me/NamadaIndia    | India         |
-| Unknown                                          | Telegram | https://t.me/NamadaTR       | Turkey        |
-| ixela(NAMADA discord member)                     | Telegram | https://t.me/namadaru       | CIS (Russian) |
-| Ramonsami(NAMADA discord member)                 | Telegram | https://t.me/namada_es      | Spanish       |
-| tr0uva1lle (NAMADA discord member)               | Telegram | https://t.me/Namada_Ukraine | Ukraine       |
-| paddyson (NAMADA discord member)                 | Telegram | https://t.me/namada_german  | German        |
-| SamuraiQQ  (NAMADA discord member)               | Telegram | https://t.me/Namada_CIS     | CIS (Russian) |
+| [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | <https://t.me/Namada_china>   | China         |
+| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     |
+| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        |
+| minajuddin(NAMADA discord member)                | Telegram | ≤https://t.me/NamadaIndia≥    | India         |
+| Unknown                                          | Telegram | ≤https://t.me/NamadaTR≥       | Turkey        |
+| ixela(NAMADA discord member)                     | Telegram | ≤https://t.me/namadaru≥       | CIS (Russian) |
+| Ramonsami(NAMADA discord member)                 | Telegram | ≤https://t.me/namada_es≥      | Spanish       |
+| tr0uva1lle (NAMADA discord member)               | Telegram | ≤https://t.me/Namada_Ukraine≥ | Ukraine       |
+| paddyson (NAMADA discord member)                 | Telegram | ≤https://t.me/namada_german≥  | German        |
+| SamuraiQQ  (NAMADA discord member)               | Telegram | ≤https://t.me/Namada_CIS≥     | CIS (Russian) |
 
 ### 📰 Commutity articles
 
