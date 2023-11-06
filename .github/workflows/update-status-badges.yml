@@ -3,9 +3,7 @@ on:
   push:
     branches:
       - feat/telegram-members-count
-    paths:
-      - "**/README.md"
-
+      
   workflow_dispatch:
 
   schedule:
