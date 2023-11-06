@@ -1,4 +1,4 @@
-name: Update Services Status Badges
+name: Update community members count
 on:
   push:
     branches:
