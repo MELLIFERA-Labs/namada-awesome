@@ -80,17 +80,17 @@
 
 | Thanks to                                        | Where?   | Link                          | Type          | members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
-| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`10` |
-| Unknown                                          | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`1` |
-| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`10` |
-| [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus/>    | CIS (Russian) | <!--members_count-->`10` |
-| SamuraiQQ  (NAMADA discord member)               | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`10` |
-| Ramonsami(NAMADA discord member)                 | Telegram | <https://t.me/namada_es>      | Spanish       | <!--members_count-->`10` |
-| minajuddin(NAMADA discord member)                | Telegram | <https://t.me/NamadaIndia>    | India         | <!--members_count-->`10` |
-| [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | <https://t.me/Namada_china>   | China         | <!--members_count-->`10` |
-| ixela(NAMADA discord member)                     | Telegram | <https://t.me/namadaru>       | CIS (Russian) | <!--members_count-->`10` |
-| paddyson (NAMADA discord member)                 | Telegram | <https://t.me/namada_german>  | German        | <!--members_count-->`10` |
-| tr0uva1lle (NAMADA discord member)               | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`10` |
+| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`608` |
+| Unknown                                          | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`247` |
+| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`101` |
+| [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus/>    | CIS (Russian) | <!--members_count-->`43` |
+| SamuraiQQ  (NAMADA discord member)               | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`35` |
+| Ramonsami(NAMADA discord member)                 | Telegram | <https://t.me/namada_es>      | Spanish       | <!--members_count-->`29` |
+| minajuddin(NAMADA discord member)                | Telegram | <https://t.me/NamadaIndia>    | India         | <!--members_count-->`25` |
+| [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | <https://t.me/Namada_china>   | China         | <!--members_count-->`21` |
+| ixela(NAMADA discord member)                     | Telegram | <https://t.me/namadaru>       | CIS (Russian) | <!--members_count-->`12` |
+| paddyson (NAMADA discord member)                 | Telegram | <https://t.me/namada_german>  | German        | <!--members_count-->`3` |
+| tr0uva1lle (NAMADA discord member)               | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`1` |
 
 ### 📰 Commutity articles
 
