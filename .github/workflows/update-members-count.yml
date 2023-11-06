@@ -2,7 +2,7 @@ name: Update community members count
 on:
   push:
     branches:
-      - main
+      - feat/telegram-members-count
     paths:
       - "**/README.md"
 

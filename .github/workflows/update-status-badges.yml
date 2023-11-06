@@ -2,8 +2,10 @@ name: Update Services Status Badges
 on:
   push:
     branches:
-      - feat/telegram-members-count
-      
+      - main
+    paths:
+      - "**/README.md"
+
   workflow_dispatch:
 
   schedule:
