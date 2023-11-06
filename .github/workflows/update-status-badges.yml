@@ -2,7 +2,7 @@ name: Update Services Status Badges
 on:
   push:
     branches:
-      - main
+      - feat/telegram-members-count
     paths:
       - "**/README.md"
 
