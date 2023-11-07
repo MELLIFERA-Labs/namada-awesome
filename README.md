@@ -73,7 +73,7 @@
 
 | Where?   | Link                                | Type                                                                                           | Members                 |
 | -------- |:----------------------------------- |:---------------------------------------------------------------------------------------------- |:----------------------- |
-| Discord  | <https://discord.com/invite/namada> | `english`, `turkiye`,`中文`, `bahasa-indonesia`, `español`, `снг-ru`, `tiếng-việt`, `français` | <!--members_count-->`55,560` |
+| Discord  | <https://discord.com/invite/namada> | `english`, `turkiye`,`中文`, `bahasa-indonesia`, `español`, `снг-ru`, `tiếng-việt`, `français` | <!--members_count-->`55,565` |
 | Telegram | <https://t.me/namadaprotocol>       | `english`                                                                                      | <!--members_count-->`3,230` |
 
 > Unofficial NAMADA Communities
