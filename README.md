@@ -127,4 +127,4 @@
 
 ## You want to get involved? 😍
 
-Please submit a pull request if you know any resources that might be helpful to the community. ❤️
+Please submit a [pull request](https://github.com/MELLIFERA-Labs/namada-awesome/pulls) if you know any resources that might be helpful to the community. ❤️
