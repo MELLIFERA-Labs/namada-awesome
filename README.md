@@ -107,10 +107,11 @@
 
 ## 🔭 Block explorers
 
-| Thanks to  | URL                              | Status |
-| ---------- | -------------------------------- | ------ |
-| [Namada](https://namada.net)     | <https://namadaexplorer.com/>    | 🟡     |
+| Thanks to                         | URL                              | Status |
+| --------------------------------- | -------------------------------- |:------ |
+| [Namada](https://namada.net)      | <https://namada.world/>          | 🟡     |
 | [Nodes.guru](https://nodes.guru/) | <https://namada.explorers.guru/> | 🟡     |
+| gnosed (Discord member)           | <https://namadaexplorer.com>     | 🟡     |
 
 ## 🚰 Faucets
 
