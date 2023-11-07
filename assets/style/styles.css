@@ -1,0 +1,90 @@
+/* Sample CSS for GitHub-like Dark Theme */
+
+body {
+  background-color: #0e1116;
+  color: #c9d1d9;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+/* Style code blocks */
+pre {
+  background-color: #161b22;
+  color: #c9d1d9;
+  padding: 10px;
+  border: 1px solid #21262d;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+code {
+  background-color: #161b22;
+  color: #c9d1d9;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Style table rows and cells */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #30363d;
+}
+
+th, td {
+  border: 1px solid #30363d;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #161b22;
+}
+
+tr:nth-child(odd) {
+  background-color: #0e1116;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .markdown-body {
+    padding: 10px;
+  }
+
+  pre {
+    padding: 5px;
+  }
+
+  code {
+    padding: 1px 3px;
+  }
+}
+
+.banner-logo-container{
+  display: flex;
+  justify-content: center;
+}
+#banner-logo {
+  width: 50%;
+  margin: auto;
+}
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
