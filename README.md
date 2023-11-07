@@ -1,7 +1,7 @@
-<picture>
+<picture class="banner-logo-container">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/logo_namada_for_dark_mode.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/logo_namada_for_light_mode.svg">
-  <img alt="namada_logo_banner" src="./assets/logo_namada_for_dark_mode.svg">
+  <img alt="namada_logo_banner" src="./assets/logo_namada_for_dark_mode.svg" id="banner-logo">
 </picture>
 
 # Awesome NAMADA
