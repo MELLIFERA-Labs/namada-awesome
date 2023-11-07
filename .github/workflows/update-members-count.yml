@@ -1,6 +1,8 @@
 name: Update community members count
 on:
   push:
+    branches:
+      - main
     paths:
       - "**/README.md"
 

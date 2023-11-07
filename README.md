@@ -71,14 +71,14 @@
 
 #### **Offical NAMADA Communities**
 
-| Where?   | Link                                | Type                                                                                           | members                 |
+| Where?   | Link                                | Type                                                                                           | Members                 |
 | -------- |:----------------------------------- |:---------------------------------------------------------------------------------------------- |:----------------------- |
 | Discord  | <https://discord.com/invite/namada> | `english`, `turkiye`,`中文`, `bahasa-indonesia`, `español`, `снг-ru`, `tiếng-việt`, `français` | <!--members_count-->`55,560` |
 | Telegram | <https://t.me/namadaprotocol>       | `english`                                                                                      | <!--members_count-->`3,230` |
 
 > Unofficial NAMADA Communities
 
-| Thanks to                                        | Where?   | Link                          | Type          | members                  |
+| Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
 | ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`608` |
 | Unknown                                          | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`246` |
