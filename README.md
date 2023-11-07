@@ -71,10 +71,10 @@
 
 #### **Offical NAMADA Communities**
 
-| Where?   | Link                                | Language |
-| -------- | ----------------------------------- | -------- |
-| Discord  | <https://discord.com/invite/namada> | English  |
-| Telegram | <https://t.me/namadaprotocol>       | English  |
+| Where?   | Link                                | Type                                                                                           | members                 |
+| -------- |:----------------------------------- |:---------------------------------------------------------------------------------------------- |:----------------------- |
+| Discord  | <https://discord.com/invite/namada> | `english`, `turkiye`,`中文`, `bahasa-indonesia`, `español`, `снг-ru`, `tiếng-việt`, `français` | <!--members_count-->`1` |
+| Telegram | <https://t.me/namadaprotocol>       | `english`                                                                                      | <!--members_count-->`1` |
 
 > Unofficial NAMADA Communities
 

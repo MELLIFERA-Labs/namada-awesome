@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const readmeContent = fs.readFileSync("./README.md", "utf8");
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN
+const DISCORD_MEMBER_COUNT = 'https://discord.com/api/v9/invites/:serverName?with_counts=true&with_expiration=true'
 const lines = readmeContent.split("\n");
 const parsedTable = parseMarkdownTables(readmeContent);
 const channelLinks = parsedTable.map(tb => {
@@ -16,27 +17,38 @@ const channelLinks = parsedTable.map(tb => {
     }
 }).flat().filter(Boolean)
 
+const prettyFormatNumber = (number) => {
+    return number.toLocaleString('en')   
+}
+
 const calculateTelegramMembersCount = async (link) => {
     const url = new URL(link)
     const channelName = url.pathname.split('/')[1]
     const apiUrl = `https://api.telegram.org/${TELEGRAM_BOT_TOKEN}/getChatMembersCount?chat_id=@${channelName}`
-    const res = await fetch(apiUrl)
-    const json = await res.json()
-    return json.result
+    const json = await fetch(apiUrl).then(res => res.json())
+    return  json.result ?  prettyFormatNumber(Number(json.result)) : 'Unknown'
 }
+const calculateDiscordMemberCount = async (link) => {
+    const url = new URL(link)
+    const serverName = url.pathname.split('/').at(-1)
+    const apiUrl = DISCORD_MEMBER_COUNT.replace(':serverName', serverName)
+    const json = await fetch(apiUrl).then(res => res.json())
+    return json.approximate_member_count ? prettyFormatNumber(Number(json.approximate_member_count)) : 'Unknown'  
+}
+
 
 const calculateMembersOfChannel = async (links) => {
     
-    return Promise.all(links.map(async link => {
-        if (link.type.trim().toLowerCase() === 'discord') {
+    return Promise.all(links.map(async linkObj => {
+        if (linkObj.type.trim().toLowerCase() === 'discord') {
             return {
-                ...link,
-                memberCount: null
+                ...linkObj,
+                memberCount: await calculateDiscordMemberCount(linkObj.link)
             }
         }
         return {
-            ...link,
-            memberCount: await calculateTelegramMembersCount(link.link)
+            ...linkObj,
+            memberCount: await calculateTelegramMembersCount(linkObj.link)
         }
     }))
 }
@@ -45,7 +57,7 @@ async function main() {
     const parsedMarkdown = lines.map(line => {
         const calculatedLinkMembers = calculatedLinksMembers.find(l => line.includes(l.link) && line.includes('members_count'))
         if (calculatedLinkMembers) {
-            const newLine = line.replace(/<!--\s*members_count\s*-->\s*`(\d+)`/, `<!--members_count-->\`${calculatedLinkMembers.memberCount}\``)
+            const newLine = line.replace(/<!--\s*members_count\s*-->\s*`([\s\S]*)`/, `<!--members_count-->\`${calculatedLinkMembers.memberCount}\``)
             return {
                 line: newLine,
                 ...calculatedLinkMembers,
