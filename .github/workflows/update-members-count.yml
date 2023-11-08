@@ -43,11 +43,11 @@ jobs:
         run: |
           echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> $GITHUB_ENV
         shell: bash
-        
+
       - name: Set REDDIT_ACCESS_TOKEN Variable from Secret
         run: |
           echo "REDDIT_ACCESS_TOKEN=${{ secrets.REDDIT_ACCESS_TOKEN }}" >> $GITHUB_ENV
-        shell: bash  
+        shell: bash
 
       - name: Run script
         run: node .github/scripts/update-members-count.js
