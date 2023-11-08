@@ -41,10 +41,11 @@ const calculateRedditMemberCount = async (link) => {
     const url = new URL(link)
     const serverName = url.pathname.split('/').at(-1)
     const apiUrl = REDDIT_MEMBER_COUNT.replace(':subreddit', serverName)
+    const headers = new Headers({
+        'User-Agent': 'Get Members count bot once a day by @rossgl '
+    })
     const res = await fetch(apiUrl, {
-        headers: {
-            'User-Agent': 'Nodejs/Github-Action'
-        }
+        headers
     });
     console.log(await res.text())
     const json = await res.json()
