@@ -74,14 +74,14 @@
 | Where?   | Link                                | Type                                                                                           | Members                      |
 | -------- |:----------------------------------- |:---------------------------------------------------------------------------------------------- |:---------------------------- |
 | Discord  | <https://discord.com/invite/namada> | `english`, `turkiye`,`中文`, `bahasa-indonesia`, `español`, `снг-ru`, `tiếng-việt`, `français` | <!--members_count-->`55,707` |
-| Telegram | <https://t.me/namadaprotocol>       | `english`                                                                                      | <!--members_count-->`Unknown`  |
+| Telegram | <https://t.me/namadaprotocol>       | `english`                                                                                      | <!--members_count-->`Unknown123`  |
 | Reddit   | <https://reddit.com/r/namada>       | `english`                                                                                      | <!--members_count-->`1,272`  |
   
 > Unofficial NAMADA Communities
 
 | Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
-| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`Unknown` |
+| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`Unknown1231` |
 | SamuraiQQ  (NAMADA discord member)               | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`Unknown` |
 | Unknown                                          | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`Unknown` |
 | [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`Unknown` |
