@@ -42,7 +42,7 @@ const calculateRedditMemberCount = async (link) => {
     const serverName = url.pathname.split('/').at(-1)
     const apiUrl = REDDIT_MEMBER_COUNT.replace(':subreddit', serverName)
     const res = await fetch(apiUrl);
-    console.log(res)
+    console.log(res.body)
     const json = await res.json()
     return json?.data?.subscribers ? prettyFormatNumber(Number(json.data.subscribers)) : 'Unknown'
 }
