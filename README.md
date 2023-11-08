@@ -81,7 +81,7 @@
 
 | Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
-| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`Unknown1231` |
+| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`Unknown1231123` |
 | SamuraiQQ  (NAMADA discord member)               | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`Unknown` |
 | Unknown                                          | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`Unknown` |
 | [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`Unknown` |
