@@ -11,7 +11,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  update-status-badges:
+  update-membres-count:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
@@ -42,6 +42,11 @@ jobs:
       - name: Set TELEGRAM_BOT_TOKEN Variable from Secret
         run: |
           echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Set REDDIT_ACCESS_TOKEN Variable from Secret
+        run: |
+          echo "REDDIT_ACCESS_TOKEN=${{ secrets.REDDIT_ACCESS_TOKEN }}" >> $GITHUB_ENV
         shell: bash
 
       - name: Run script

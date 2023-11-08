@@ -3,8 +3,9 @@ const fs = require("fs");
 
 const readmeContent = fs.readFileSync("./README.md", "utf8");
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN
+const REDDIT_ACCESS_TOKEN = process.env.REDDIT_ACCESS_TOKEN;
 const DISCORD_MEMBER_COUNT = 'https://discord.com/api/v9/invites/:serverName?with_counts=true&with_expiration=true'
-const REDDIT_MEMBER_COUNT = 'https://www.reddit.com/r/:subreddit/about.json'
+const REDDIT_MEMBER_COUNT = 'https://oauth.reddit.com/r/:subreddit/about'
 const lines = readmeContent.split("\n");
 const parsedTable = parseMarkdownTables(readmeContent);
 const channelLinks = parsedTable.map(tb => {
@@ -41,7 +42,15 @@ const calculateRedditMemberCount = async (link) => {
     const url = new URL(link)
     const serverName = url.pathname.split('/').at(-1)
     const apiUrl = REDDIT_MEMBER_COUNT.replace(':subreddit', serverName)
-    const json = await fetch(apiUrl).then(res => res.json())
+    const headers = new Headers({
+        'Authorization': `bearer ${REDDIT_ACCESS_TOKEN}`,
+        'User-Agent': 'Node.js/0.1 by @rossgl',
+        'Accept': 'application/json'
+    })
+    const res = await fetch(apiUrl, {
+        headers
+    });
+    const json = await res.json()
     return json?.data?.subscribers ? prettyFormatNumber(Number(json.data.subscribers)) : 'Unknown'
 }
 
