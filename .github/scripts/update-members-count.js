@@ -44,7 +44,8 @@ const calculateRedditMemberCount = async (link) => {
     const apiUrl = REDDIT_MEMBER_COUNT.replace(':subreddit', serverName)
     const headers = new Headers({
         'Authorization': `bearer ${REDDIT_ACCESS_TOKEN}`,
-        'User-Agent': 'Node.js/0.1 by @rossgl '
+        'User-Agent': 'Node.js/0.1 by @rossgl',
+        'Accept': 'application/json'
     })
     const res = await fetch(apiUrl, {
         headers
