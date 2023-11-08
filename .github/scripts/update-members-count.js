@@ -50,7 +50,6 @@ const calculateRedditMemberCount = async (link) => {
     const res = await fetch(apiUrl, {
         headers
     });
-    console.log(await res.text())
     const json = await res.json()
     return json?.data?.subscribers ? prettyFormatNumber(Number(json.data.subscribers)) : 'Unknown'
 }
