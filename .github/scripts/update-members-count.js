@@ -4,6 +4,7 @@ const fs = require("fs");
 const readmeContent = fs.readFileSync("./README.md", "utf8");
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN
 const DISCORD_MEMBER_COUNT = 'https://discord.com/api/v9/invites/:serverName?with_counts=true&with_expiration=true'
+const REDDIT_MEMBER_COUNT = 'https://www.reddit.com/r/:subreddit/about.json'
 const lines = readmeContent.split("\n");
 const parsedTable = parseMarkdownTables(readmeContent);
 const channelLinks = parsedTable.map(tb => {
@@ -26,7 +27,7 @@ const calculateTelegramMembersCount = async (link) => {
     const channelName = url.pathname.split('/')[1]
     const apiUrl = `https://api.telegram.org/${TELEGRAM_BOT_TOKEN}/getChatMembersCount?chat_id=@${channelName}`
     const json = await fetch(apiUrl).then(res => res.json())
-    return  json.result ?  prettyFormatNumber(Number(json.result)) : 'Unknown'
+    return json.result ? prettyFormatNumber(Number(json.result)) : 'Unknown'
 }
 const calculateDiscordMemberCount = async (link) => {
     const url = new URL(link)
@@ -34,6 +35,14 @@ const calculateDiscordMemberCount = async (link) => {
     const apiUrl = DISCORD_MEMBER_COUNT.replace(':serverName', serverName)
     const json = await fetch(apiUrl).then(res => res.json())
     return json.approximate_member_count ? prettyFormatNumber(Number(json.approximate_member_count)) : 'Unknown'  
+}
+
+const calculateRedditMemberCount = async (link) => {
+    const url = new URL(link)
+    const serverName = url.pathname.split('/').at(-1)
+    const apiUrl = REDDIT_MEMBER_COUNT.replace(':subreddit', serverName)
+    const json = await fetch(apiUrl).then(res => res.json())
+    return json?.data?.subscribers ? prettyFormatNumber(Number(json.data.subscribers)) : 'Unknown'
 }
 
 
@@ -46,9 +55,21 @@ const calculateMembersOfChannel = async (links) => {
                 memberCount: await calculateDiscordMemberCount(linkObj.link)
             }
         }
+        if (linkObj.type.trim().toLowerCase() === 'telegram') {
+            return {
+                ...linkObj,
+                memberCount: await calculateTelegramMembersCount(linkObj.link)
+            }    
+        }
+        if (linkObj.type.trim().toLowerCase() === 'reddit') {
+            return {
+                ...linkObj,
+                memberCount: await calculateRedditMemberCount(linkObj.link)
+            }   
+        }
         return {
             ...linkObj,
-            memberCount: await calculateTelegramMembersCount(linkObj.link)
+            memberCount: 'Unknown'
         }
     }))
 }
