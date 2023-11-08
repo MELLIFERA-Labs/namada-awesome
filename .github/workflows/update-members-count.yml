@@ -1,8 +1,6 @@
 name: Update community members count
 on:
   push:
-    branches:
-      - main
     paths:
       - "**/README.md"
 
@@ -11,7 +9,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  update-status-badges:
+  update-membres-count:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
