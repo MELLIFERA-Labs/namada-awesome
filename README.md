@@ -95,14 +95,14 @@
 
 ### 📰 Commutity articles
 
-- [ENGLISH](./articles/ENGLISH.md)
-- [UKRAINIAN](./articles/UKRAINIAN.md)
-- [CHINESE](./articles/CHINESE.md)
-- [TURKISH](./articles/TURKISH.md)
-- [VIETNAMESE](./articles/VIETNAMESE.md)
-- [SPANISH](./articles/SPANISH.md)
-- [RUSSIAN](./articles/RUSSIAN.md)
-- [INDONESIAN](./articles/INDONESIAN.md)
+- [ENGLISH](./articles/english.md)
+- [UKRAINIAN](./articles/ukrainian.md)
+- [CHINESE](./articles/chinese.md)
+- [TURKISH](./articles/turkish.md)
+- [VIETNAMESE](./articles/vietnamese.md)
+- [SPANISH](./articles/spanish.md)
+- [INDONESIAN](./articles/indonesian.md)
+- [RUSSIAN](./articles/russian.md)
 
 ---
 
