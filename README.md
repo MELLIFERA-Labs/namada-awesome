@@ -97,6 +97,12 @@
 
 - [ENGLISH](./articles/ENGLISH.md)
 - [UKRAINIAN](./articles/UKRAINIAN.md)
+- [CHINESE](./articles/CHINESE.md)
+- [TURKISH](./articles/TURKISH.md)
+- [VIETNAMESE](./articles/VIETNAMESE.md)
+- [SPANISH](./articles/SPANISH.md)
+- [RUSSIAN](./articles/RUSSIAN.md)
+- [INDONESIAN](./articles/INDONESIAN.md)
 
 ---
 

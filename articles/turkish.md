@@ -1,0 +1,6 @@
+## TURKISH ARTICLES
+
+| Thanks to  | Original Article                                                                                                                                      | URL                                                                                                                                                                 |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sayin      | [Unleash Your Creativity with Namada's Visual Identity Kit \| Blog](https://namada.net/blog/unleash-your-creativity-with-namadas-visual-identity-kit) | <https://medium.com/@0xSuhan/namadan%C4%B1n-g%C3%B6rsel-kimlik-kiti-ile-yarat%C4%B1c%C4%B1l%C4%B1%C4%9F%C4%B1n%C4%B1z%C4%B1-serbest-b%C4%B1rak%C4%B1n-3260181b7dbd> |
+| hitasyurek | [https://docs.namada.net/](https://docs.namada.net/)                                                                                                  | <https://nama-turkish.gitbook.io/namada/>                                                                                                                           |
