@@ -95,8 +95,8 @@
 
 ### 📰 Commutity articles
 
-- [ENGLISH](./articles/english.md)
-- [UKRAINIAN](./articles/ukrainian.md)
+- [ENGLISH](./articles/ENGLISH.md)
+- [UKRAINIAN](./articles/UKRAINIAN.md)
 - [CHINESE](./articles/chinese.md)
 - [TURKISH](./articles/turkish.md)
 - [VIETNAMESE](./articles/vietnamese.md)
