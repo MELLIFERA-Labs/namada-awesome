@@ -92,7 +92,7 @@
 | ixela                                            | Telegram | <https://t.me/namadaru>       | CIS (Russian) | <!--members_count-->`10` |
 | paddyson                                         | Telegram | <https://t.me/namada_german>  | German        | <!--members_count-->`3` |
 | tr0uva1lle                                       | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`1` |
-|                                                  | Matrix   | <https://matrix.to/#/#namada-public-testnets:matrix.org> | English |    | 
+|                                                  | Matrix   | <https://matrix.to/#/#namada-public-testnets:matrix.org> | English |    |
 ### 📰 Useful Articles
 
 - [ENGLISH](./articles/ENGLISH.md)
@@ -120,13 +120,12 @@
 | [Nodes.guru](https://nodes.guru/)                | <https://namada.explorers.guru/> | 🟡     |
 | gnosed                                           | <https://namadaexplorer.com/>    | 🟡     |
 
-
 ## 🚰 Faucets
 
 | Thanks to | URL                            | Status |
 | --------- | ------------------------------ | ------ |
 | [Namada](https://namada.net)    | <https://faucet.heliax.click/> | 🟡     |
-| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | 🟡 | 
+| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | 🟡 |
 
 ## ⚙️ Services
 
@@ -135,20 +134,19 @@
 | [LavenderFive](https://lavenderfive.com/)  | <https://lavenderfive.com/networks?id=namada>               | `snapshot`, `api`                             | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
 | [CryptoSJ.net](https://cryptosj.net/)      | <https://cryptosj.net/namadaservice.html>                   | `snapshot`,`addrbook`,`rpc`,`genesis` `peers` | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
 | [Noders](https://noders.team/)             | <https://github.com/nodersteam/noderslabs/tree/main/NAMADA> | `Scripts for node installation, monitoring, token request, etc | [current public testnet](https://namadaexplorer.com/) | 🟡    |
-| [Encipher88](https://github.com/encipher88)| <https://github.com/encipher88/namada>                      | Scripts to check if you are proposer or signer | [current public testnet](https://namadaexplorer.com/)                 | 🟡    | 
+| [Encipher88](https://github.com/encipher88)| <https://github.com/encipher88/namada>                      | Scripts to check if you are proposer or signer | [current public testnet](https://namadaexplorer.com/)                 | 🟡    |
 
 ## 📊 Monitoring Dashboards
 
-| Thanks to                      | URL                                                                                    | Description                        | Status | 
+| Thanks to                      | URL                                                                                    | Description                        | Status |
 |:------------------------------ |:-------------------------------------------------------------------------------------- | ---------------------------------- |:------ |
-| [Node75](https://node75.org/)  | <https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&refresh=15m>   | Check Namada network performance | 🟡     | 
+| [Node75](https://node75.org/)  | <https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&refresh=15m>   | Check Namada network performance | 🟡     |
 
 # 📦 Integrations
 
 | Thanks to                                  | URL                                                         | Description                                                                                 | Status |
 |:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------------------------------------------------------|:------ |
 | [Zondax](https://zondax.ch/)               | <https://github.com/zondax/ledger-namada/>                  | Client library to communicate with the Namada App running in a Ledger Nano S/X              | 🟡     |
-
 
 ## You want to get involved? 😍
 
