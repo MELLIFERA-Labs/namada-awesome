@@ -93,6 +93,7 @@
 | paddyson                                         | Telegram | <https://t.me/namada_german>  | German        | <!--members_count-->`3` |
 | tr0uva1lle                                       | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`1` |
 |                                                  | Matrix   | <https://matrix.to/#/#namada-public-testnets:matrix.org> | English |    |
+
 ### 📰 Useful Articles
 
 - [ENGLISH](./articles/ENGLISH.md)
