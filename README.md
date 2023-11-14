@@ -134,7 +134,7 @@
 |:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------- |:---------------------------------------------------------------------- |:------|
 | [LavenderFive](https://lavenderfive.com/)  | <https://lavenderfive.com/networks?id=namada>               | `snapshot`, `api`                             | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
 | [CryptoSJ.net](https://cryptosj.net/)      | <https://cryptosj.net/namadaservice.html>                   | `snapshot`,`addrbook`,`rpc`,`genesis` `peers` | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
-| [Noders](https://noders.team/)             | <https://github.com/nodersteam/noderslabs/tree/main/NAMADA> | `Scripts for node installation, monitoring, token request, etc | [current public testnet](https://namadaexplorer.com/) | 🟡    |
+| [Noders](https://noders.team/)             | <https://github.com/nodersteam/noderslabs/tree/main/NAMADA> | Scripts for node installation, monitoring, token request, etc | [current public testnet](https://namadaexplorer.com/) | 🟡    |
 | [Encipher88](https://github.com/encipher88)| <https://github.com/encipher88/namada>                      | Scripts to check if you are proposer or signer | [current public testnet](https://namadaexplorer.com/)                 | 🟡    |
 
 ## 📊 Monitoring Dashboards
