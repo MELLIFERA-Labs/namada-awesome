@@ -81,19 +81,20 @@
 
 | Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
-| ffego(NAMADA discord member)                     | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`602` |
-| Unknown                                          | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`255` |
+| ffego                                            | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`602` |
+|                                                  | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`255` |
 | [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`222` |
-| SamuraiQQ  (NAMADA discord member)               | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`100` |
+| SamuraiQQ                                        | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`100` |
 | [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus/>    | CIS (Russian) | <!--members_count-->`45` |
-| Ramonsami(NAMADA discord member)                 | Telegram | <https://t.me/namada_es>      | Spanish       | <!--members_count-->`29` |
-| minajuddin(NAMADA discord member)                | Telegram | <https://t.me/NamadaIndia>    | India         | <!--members_count-->`25` |
+| Ramonsami                                        | Telegram | <https://t.me/namada_es>      | Spanish       | <!--members_count-->`29` |
+| minajuddin                                       | Telegram | <https://t.me/NamadaIndia>    | India         | <!--members_count-->`25` |
 | [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | <https://t.me/Namada_china>   | China         | <!--members_count-->`21` |
-| ixela(NAMADA discord member)                     | Telegram | <https://t.me/namadaru>       | CIS (Russian) | <!--members_count-->`10` |
-| paddyson (NAMADA discord member)                 | Telegram | <https://t.me/namada_german>  | German        | <!--members_count-->`3` |
-| tr0uva1lle (NAMADA discord member)               | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`1` |
+| ixela                                            | Telegram | <https://t.me/namadaru>       | CIS (Russian) | <!--members_count-->`10` |
+| paddyson                                         | Telegram | <https://t.me/namada_german>  | German        | <!--members_count-->`3` |
+| tr0uva1lle                                       | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`1` |
+|                                                  | Matrix   | <https://matrix.to/#/#namada-public-testnets:matrix.org> | English |    |
 
-### 📰 Commutity articles
+### 📰 Useful Articles
 
 - [ENGLISH](./articles/ENGLISH.md)
 - [UKRAINIAN](./articles/UKRAINIAN.md)
@@ -114,23 +115,39 @@
 
 ## 🔭 Block explorers
 
-| Thanks to  | URL                              | Status |
-| ---------- | -------------------------------- | ------ |
-| [Namada](https://namada.net)     | <https://namadaexplorer.com/>    | 🟡     |
-| [Nodes.guru](https://nodes.guru/) | <https://namada.explorers.guru/> | 🟡     |
+| Thanks to                                        | URL                              | Status |
+| ------------------------------------------------ | -------------------------------- | ------ |
+| [Namada](https://namada.net) (Under development) | <https://namada.world/>          | 🟡     |
+| [Nodes.guru](https://nodes.guru/)                | <https://namada.explorers.guru/> | 🟡     |
+| gnosed                                           | <https://namadaexplorer.com/>    | 🟡     |
 
 ## 🚰 Faucets
 
 | Thanks to | URL                            | Status |
 | --------- | ------------------------------ | ------ |
 | [Namada](https://namada.net)    | <https://faucet.heliax.click/> | 🟡     |
+| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | 🟡 |
 
 ## ⚙️ Services
 
-| Thanks to                                 | URL                                           | types                                         | network                                               | Status |
-|:----------------------------------------- |:--------------------------------------------- |:--------------------------------------------- |:----------------------------------------------------- |:------ |
-| [LavenderFive](https://lavenderfive.com/) | <https://lavenderfive.com/networks?id=namada> | `snapshot`, `api`                             | [current public testnet](https://namadaexplorer.com/) | 🟡     |
-| [CryptoSJ.net](https://cryptosj.net/)     | <https://cryptosj.net/namadaservice.html>     | `snapshot`,`addrbook`,`rpc`,`genesis` `peers` | [current public testnet](https://namadaexplorer.com/) | 🟡     |
+| Thanks to                                  | URL                                                         | Description                                   | Network                                                                | Status|
+|:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------- |:---------------------------------------------------------------------- |:------|
+| [LavenderFive](https://lavenderfive.com/)  | <https://lavenderfive.com/networks?id=namada>               | `snapshot`, `api`                             | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
+| [CryptoSJ.net](https://cryptosj.net/)      | <https://cryptosj.net/namadaservice.html>                   | `snapshot`,`addrbook`,`rpc`,`genesis` `peers` | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
+| [Noders](https://noders.team/)             | <https://github.com/nodersteam/noderslabs/tree/main/NAMADA> | `Scripts for node installation, monitoring, token request, etc | [current public testnet](https://namadaexplorer.com/) | 🟡    |
+| [Encipher88](https://github.com/encipher88)| <https://github.com/encipher88/namada>                      | Scripts to check if you are proposer or signer | [current public testnet](https://namadaexplorer.com/)                 | 🟡    |
+
+## 📊 Monitoring Dashboards
+
+| Thanks to                      | URL                                                                                    | Description                        | Status |
+|:------------------------------ |:-------------------------------------------------------------------------------------- | ---------------------------------- |:------ |
+| [Node75](https://node75.org/)  | <https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&refresh=15m>   | Check Namada network performance | 🟡     |
+
+# 📦 Integrations
+
+| Thanks to                                  | URL                                                         | Description                                                                                 | Status |
+|:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------------------------------------------------------|:------ |
+| [Zondax](https://zondax.ch/)               | <https://github.com/zondax/ledger-namada/>                  | Client library to communicate with the Namada App running in a Ledger Nano S/X              | 🟡     |
 
 ## You want to get involved? 😍
 
