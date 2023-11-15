@@ -126,7 +126,7 @@
 | Thanks to | URL                            | Status |
 | --------- | ------------------------------ | ------ |
 | [Namada](https://namada.net)    | <https://faucet.heliax.click/> | 🟡     |
-| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | 🟡 |
+| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | ⚫ |
 
 ## ⚙️ Services
 
