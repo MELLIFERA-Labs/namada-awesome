@@ -1,7 +1,7 @@
 <picture class="banner-logo-container">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/logo_namada_for_dark_mode.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/logo_namada_for_light_mode.svg">
-  <img alt="namada_logo_banner" src="./assets/logo_namada_for_dark_mode.svg" id="banner-logo">
+  <img  alt="namada_logo_banner" src="./assets/logo_namada_for_light_mode.svg" id="banner-logo">
 </picture>
 
 # Awesome NAMADA
@@ -16,51 +16,51 @@
 ## Official NAMADA links
 
 <div>
-  <a href="https://discord.com/invite/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://discord.com/invite/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/discord/yellow">
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/discord/black">
-      <img height="15" width="15" alt="Discord Icon" src="https://cdn.simpleicons.org/discord/yellow">
+      <img height="15" width="15" alt="Discord Icon" src="https://cdn.simpleicons.org/discord/black">
     </picture> Discord
   </a>
 </div>
 
 <div>
-  <a href="https://namada.net/blog" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://namada.net/blog" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-yellow.svg">
       <source media="(prefers-color-scheme: light)" srcset="./assets/blog-black.svg">
-      <img height="15" width="15" alt="Medium icon" src="./assets/blog-yellow.svg">
+      <img height="15" width="15" alt="Medium icon" src="./assets/blog-black.svg">
     </picture> Namada blog
   </a>
 </div>
 
 <div>
-  <a href="https://github.com/anoma/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://github.com/anoma/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/yellow">
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/black">
-      <img height="15" width="15" alt="Github icon" src="https://cdn.simpleicons.org/github/yellow">
+      <img height="15" width="15" alt="Github icon" src="https://cdn.simpleicons.org/github/black">
     </picture> Github
   </a>
 </div>
 
 <div>
-  <a href="https://twitter.com/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://twitter.com/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/yellow">
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x/black">
-      <img height="15" width="15" alt="Twitter icon" src="https://cdn.simpleicons.org/x/yellow">
+      <img height="15" width="15" alt="Twitter icon" src="https://cdn.simpleicons.org/x/black">
     </picture> Twitter (X)
   </a>
 </div>
 
 <div>
-  <a href="https://namada.net" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://namada.net" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/globe-yellow.svg">
       <source media="(prefers-color-scheme: light)" srcset="./assets/globe-black.svg">
-      <img height="15" width="15" alt="Website icon" src="./assets/globe-yellow.svg">
+      <img height="15" width="15" alt="Website icon" src="./assets/globe-black.svg">
     </picture>  Website
   </a>
 </div>
@@ -71,13 +71,13 @@
 
 #### **Offical NAMADA Communities**
 
-| Where?   | Link                                | Type                                                                                           | Members                      |
-| -------- |:----------------------------------- |:---------------------------------------------------------------------------------------------- |:---------------------------- |
-| Discord  | <https://discord.com/invite/namada> | `english`, `turkiye`,`中文`, `bahasa-indonesia`, `español`, `снг-ru`, `tiếng-việt`, `français` | <!--members_count-->`56,144` |
-| Telegram | <https://t.me/namadaprotocol>       | `english`                                                                                      | <!--members_count-->`3,278`  |
-| Reddit   | <https://reddit.com/r/namada>       | `english`                                                                                      | <!--members_count-->`1,276`  |
+| Where?   | Link                                | Type                                                                                                   | Members                      |
+| -------- |:----------------------------------- |:-------------------------------------------------------------------------------------------------------|:---------------------------- |
+| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`56,144` |
+| Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,278`  |
+| Reddit   | <https://reddit.com/r/namada>       | English                                                                                                | <!--members_count-->`1,276`  |
   
-> Unofficial NAMADA Communities
+#### **Unofficial NAMADA Communities**
 
 | Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
@@ -96,58 +96,56 @@
 
 ### 📰 Useful Articles
 
-- [ENGLISH](./articles/ENGLISH.md)
-- [UKRAINIAN](./articles/UKRAINIAN.md)
-- [CHINESE](./articles/chinese.md)
-- [TURKISH](./articles/turkish.md)
-- [VIETNAMESE](./articles/vietnamese.md)
-- [SPANISH](./articles/spanish.md)
-- [INDONESIAN](./articles/indonesian.md)
-- [RUSSIAN](./articles/russian.md)
-
----
+- [English 🇬🇧](./articles/ENGLISH.md)
+- [Ukrainian 🇺🇦](./articles/UKRAINIAN.md)
+- [Chinese 🇨🇳](./articles/chinese.md)
+- [Turkish 🇹🇷](./articles/turkish.md)
+- [Vietnamese 🇻🇳](./articles/vietnamese.md)
+- [Spanish 🇪🇸](./articles/spanish.md)
+- [Indonesian 🇮🇩](./articles/indonesian.md)
+- [Russian 🇷🇺](./articles/russian.md)
 
 ### 📚 Documentation / Guides
 
-| Type                    | URL                                 | Status | Thanks to                    |
-|:----------------------- |:----------------------------------- | ------ | ---------------------------- |
-| Nodes & Validator Guide | <https://docs.namada.net/operators> | 🟡     | [Namada](https://namada.net) |
+| Type                    | URL                                 | Thanks to |  Status                    |
+|:----------------------- |:----------------------------------- |-----------| ---------------------------- |
+| Nodes & Validator Guide | <https://docs.namada.net/operators> |  [Namada](https://namada.net) | ✅       |
 
 ## 🔭 Block explorers
 
 | Thanks to                                        | URL                              | Status |
 | ------------------------------------------------ | -------------------------------- | ------ |
-| [Namada](https://namada.net) (Under development) | <https://namada.world/>          | 🟡     |
-| [Nodes.guru](https://nodes.guru/)                | <https://namada.explorers.guru/> | 🟡     |
-| gnosed                                           | <https://namadaexplorer.com/>    | 🟡     |
+| [Namada](https://namada.net) (Under development) | <https://namada.world/>          | ✅     |
+| [Nodes.guru](https://nodes.guru/)                | <https://namada.explorers.guru/> | ✅     |
+| gnosed                                           | <https://namadaexplorer.com/>    | ✅     |
 
 ## 🚰 Faucets
 
 | Thanks to | URL                            | Status |
 | --------- | ------------------------------ | ------ |
-| [Namada](https://namada.net)    | <https://faucet.heliax.click/> | 🟡     |
-| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | ⚫ |
+| [Namada](https://namada.net)    | <https://faucet.heliax.click/> | ✅     |
+| [Laminar](https://luminara.icu/)| <https://https://validatornet.luminara.icu/> | ❌ |
 
 ## ⚙️ Services
 
-| Thanks to                                  | URL                                                         | Description                                   | Network                                                                | Status|
-|:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------- |:---------------------------------------------------------------------- |:------|
-| [LavenderFive](https://lavenderfive.com/)  | <https://lavenderfive.com/networks?id=namada>               | `snapshot`, `api`                             | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
-| [CryptoSJ.net](https://cryptosj.net/)      | <https://cryptosj.net/namadaservice.html>                   | `snapshot`,`addrbook`,`rpc`,`genesis` `peers` | [current public testnet](https://namadaexplorer.com/)                  | 🟡    |
-| [Noders](https://noders.team/)             | <https://github.com/nodersteam/noderslabs/tree/main/NAMADA> | Scripts for node installation, monitoring, token request, etc | [current public testnet](https://namadaexplorer.com/) | 🟡    |
-| [Encipher88](https://github.com/encipher88)| <https://github.com/encipher88/namada>                      | Scripts to check if you are proposer or signer | [current public testnet](https://namadaexplorer.com/)                 | 🟡    |
+| Thanks to                                  | URL                                                         | Description                                                   | Network                                                                | Status|
+|:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------------------------|:---------------------------------------------------------------------- |:------|
+| [LavenderFive](https://lavenderfive.com/)  | <https://lavenderfive.com/networks?id=namada>               | snapshot, api                                                 | [current public testnet](https://namadaexplorer.com/)                  | ✅    |
+| [CryptoSJ.net](https://cryptosj.net/)      | <https://cryptosj.net/namadaservice.html>                   | snapshot, addrbook, rpc, genesis peers                        | [current public testnet](https://namadaexplorer.com/)                  | ✅    |
+| [Noders](https://noders.team/)             | <https://github.com/nodersteam/noderslabs/tree/main/NAMADA> | Scripts for node installation, monitoring, token request, etc | [current public testnet](https://namadaexplorer.com/) | ✅    |
+| [Encipher88](https://github.com/encipher88)| <https://github.com/encipher88/namada>                      | Scripts to check if you are proposer or signer                | [current public testnet](https://namadaexplorer.com/)                 | ✅    |
 
 ## 📊 Monitoring Dashboards
 
 | Thanks to                      | URL                                                                                    | Description                        | Status |
 |:------------------------------ |:-------------------------------------------------------------------------------------- | ---------------------------------- |:------ |
-| [Node75](https://node75.org/)  | <https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&refresh=15m>   | Check Namada network performance | 🟡     |
+| [Node75](https://node75.org/)  | <https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&refresh=15m>   | Check Namada network performance | ✅     |
 
 # 📦 Integrations
 
 | Thanks to                                  | URL                                                         | Description                                                                                 | Status |
 |:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------------------------------------------------------|:------ |
-| [Zondax](https://zondax.ch/)               | <https://github.com/zondax/ledger-namada/>                  | Client library to communicate with the Namada App running in a Ledger Nano S/X              | 🟡     |
+| [Zondax](https://zondax.ch/)               | <https://github.com/zondax/ledger-namada/>                  | Client library to communicate with the Namada App running in a Ledger Nano S/X              | ✅     |
 
 ## You want to get involved? 😍
 
