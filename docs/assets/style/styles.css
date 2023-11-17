@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: "SpaceGroteskRegular"; /* You can choose any name for your font family */
-  src: url("../../fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+  src: url("../fonts/SpaceGrotesk-Regular.ttf") format("truetype");
   /* Add additional font formats if your font comes with more files */
 }
 
 @font-face {
   font-family: "SpaceGroteskBold";
-  src: url("../../fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+  src: url("../fonts/SpaceGrotesk-Bold.ttf") format("truetype");
 }
 
 body {
