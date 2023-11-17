@@ -1,13 +1,17 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="en"><head><script src="./assets/scripts/change-image-color-on-hover.js"></script>
+        
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Namada Awesome</title>
             <link rel="stylesheet" href="assets/style/styles.css">
+            <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
         </head>
         <body>
             <div class="content-container">
                 <picture class="banner-logo-container">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/logo_namada_for_dark_mode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/logo_namada_for_light_mode.svg">
-  <img alt="namada_logo_banner" src="./assets/logo_namada_for_dark_mode.svg" id="banner-logo">
+  <source media="(prefers-color-scheme: dark)">
+  <source media="(prefers-color-scheme: light)">
+  <img alt="namada_logo_banner" src="./assets/logo_namada_for_light_mode.svg" id="banner-logo">
 </picture>
 <h1>Awesome NAMADA</h1>
 <blockquote>
@@ -19,47 +23,47 @@
 <a href="https://github.com/mellifera-labs/namada-awesome/actions/workflows/lint.yml"><img src="https://img.shields.io/github/actions/workflow/status/mellifera-labs/namada-awesome/lint.yml?label=Lint&amp;style=for-the-badge&amp;logo=github" alt="lint"></a></p>
 <h2>Official NAMADA links</h2>
 <div>
-  <a href="https://discord.com/invite/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://discord.com/invite/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/discord/yellow">
-      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/discord/black">
-      <img height="15" width="15" alt="Discord Icon" src="https://cdn.simpleicons.org/discord/yellow">
+      <source media="(prefers-color-scheme: dark)">
+      <source media="(prefers-color-scheme: light)">
+      <img height="15" width="15" alt="Discord Icon" src="https://cdn.simpleicons.org/discord/black">
     </picture> Discord
   </a>
 </div>
 <div>
-  <a href="https://namada.net/blog" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://namada.net/blog" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-yellow.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./assets/blog-black.svg">
-      <img height="15" width="15" alt="Medium icon" src="./assets/blog-yellow.svg">
+      <source media="(prefers-color-scheme: dark)">
+      <source media="(prefers-color-scheme: light)">
+      <img height="15" width="15" alt="Medium icon" src="./assets/blog-black.svg">
     </picture> Namada blog
   </a>
 </div>
 <div>
-  <a href="https://github.com/anoma/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://github.com/anoma/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/yellow">
-      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/black">
-      <img height="15" width="15" alt="Github icon" src="https://cdn.simpleicons.org/github/yellow">
+      <source media="(prefers-color-scheme: dark)">
+      <source media="(prefers-color-scheme: light)">
+      <img height="15" width="15" alt="Github icon" src="https://cdn.simpleicons.org/github/black">
     </picture> Github
   </a>
 </div>
 <div>
-  <a href="https://twitter.com/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://twitter.com/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/yellow">
-      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x/black">
-      <img height="15" width="15" alt="Twitter icon" src="https://cdn.simpleicons.org/x/yellow">
+      <source media="(prefers-color-scheme: dark)">
+      <source media="(prefers-color-scheme: light)">
+      <img height="15" width="15" alt="Twitter icon" src="https://cdn.simpleicons.org/x/black">
     </picture> Twitter (X)
   </a>
 </div>
 <div>
-  <a href="https://namada.net" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://namada.net" style="text-decoration: none; margin-left: 5px; display: inline-block;">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/globe-yellow.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./assets/globe-black.svg">
-      <img height="15" width="15" alt="Website icon" src="./assets/globe-yellow.svg">
+      <source media="(prefers-color-scheme: dark)">
+      <source media="(prefers-color-scheme: light)">
+      <img height="15" width="15" alt="Website icon" src="./assets/globe-black.svg">
     </picture>  Website
   </a>
 </div>
@@ -77,28 +81,26 @@
 </thead>
 <tbody>
 <tr>
-<td>Discord</td>
-<td style="text-align:left"><a href="https://discord.com/invite/namada">https://discord.com/invite/namada</a></td>
-<td style="text-align:left"><code>english</code>, <code>turkiye</code>,<code>中文</code>, <code>bahasa-indonesia</code>, <code>español</code>, <code>снг-ru</code>, <code>tiếng-việt</code>, <code>français</code></td>
-<td style="text-align:left"><!--members_count--><code>56,144</code></td>
+<td col="Where?">Discord</td>
+<td style="text-align:left" col="Link"><a href="https://discord.com/invite/namada">https://discord.com/invite/namada</a></td>
+<td style="text-align:left" col="Type">English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>56,144</code></td>
 </tr>
 <tr>
-<td>Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namadaprotocol">https://t.me/namadaprotocol</a></td>
-<td style="text-align:left"><code>english</code></td>
-<td style="text-align:left"><!--members_count--><code>3,278</code></td>
+<td col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namadaprotocol">https://t.me/namadaprotocol</a></td>
+<td style="text-align:left" col="Type">English</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>3,278</code></td>
 </tr>
 <tr>
-<td>Reddit</td>
-<td style="text-align:left"><a href="https://reddit.com/r/namada">https://reddit.com/r/namada</a></td>
-<td style="text-align:left"><code>english</code></td>
-<td style="text-align:left"><!--members_count--><code>1,276</code></td>
+<td col="Where?">Reddit</td>
+<td style="text-align:left" col="Link"><a href="https://reddit.com/r/namada">https://reddit.com/r/namada</a></td>
+<td style="text-align:left" col="Type">English</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>1,276</code></td>
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p>Unofficial NAMADA Communities</p>
-</blockquote>
+<h4><strong>Unofficial NAMADA Communities</strong></h4>
 <table>
 <thead>
 <tr>
@@ -111,119 +113,118 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">ffego</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namadaturkey">https://t.me/namadaturkey</a></td>
-<td style="text-align:left">Turkey</td>
-<td style="text-align:left"><!--members_count--><code>605</code></td>
+<td style="text-align:left" col="Thanks to">ffego</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namadaturkey">https://t.me/namadaturkey</a></td>
+<td style="text-align:left" col="Type">Turkey</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>605</code></td>
 </tr>
 <tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/NamadaTR">https://t.me/NamadaTR</a></td>
-<td style="text-align:left">Turkey</td>
-<td style="text-align:left"><!--members_count--><code>255</code></td>
+<td style="text-align:left" col="Thanks to"></td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/NamadaTR">https://t.me/NamadaTR</a></td>
+<td style="text-align:left" col="Type">Turkey</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>255</code></td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="https://twitter.com/captainclogs">CaptainClogs</a></td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namada_id">https://t.me/namada_id</a></td>
-<td style="text-align:left">Indonesia</td>
-<td style="text-align:left"><!--members_count--><code>224</code></td>
+<td style="text-align:left" col="Thanks to"><a href="https://twitter.com/captainclogs">CaptainClogs</a></td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namada_id">https://t.me/namada_id</a></td>
+<td style="text-align:left" col="Type">Indonesia</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>224</code></td>
 </tr>
 <tr>
-<td style="text-align:left">SamuraiQQ</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/Namada_CIS">https://t.me/Namada_CIS</a></td>
-<td style="text-align:left">CIS (Russian)</td>
-<td style="text-align:left"><!--members_count--><code>92</code></td>
+<td style="text-align:left" col="Thanks to">SamuraiQQ</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/Namada_CIS">https://t.me/Namada_CIS</a></td>
+<td style="text-align:left" col="Type">CIS (Russian)</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>92</code></td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="https://noders.team/">[NODERS]TEAM</a></td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namada_rus/">https://t.me/namada_rus/</a></td>
-<td style="text-align:left">CIS (Russian)</td>
-<td style="text-align:left"><!--members_count--><code>45</code></td>
+<td style="text-align:left" col="Thanks to"><a href="https://noders.team/">[NODERS]TEAM</a></td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namada_rus/">https://t.me/namada_rus/</a></td>
+<td style="text-align:left" col="Type">CIS (Russian)</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>45</code></td>
 </tr>
 <tr>
-<td style="text-align:left">Ramonsami</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namada_es">https://t.me/namada_es</a></td>
-<td style="text-align:left">Spanish</td>
-<td style="text-align:left"><!--members_count--><code>29</code></td>
+<td style="text-align:left" col="Thanks to">Ramonsami</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namada_es">https://t.me/namada_es</a></td>
+<td style="text-align:left" col="Type">Spanish</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>29</code></td>
 </tr>
 <tr>
-<td style="text-align:left">minajuddin</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/NamadaIndia">https://t.me/NamadaIndia</a></td>
-<td style="text-align:left">India</td>
-<td style="text-align:left"><!--members_count--><code>25</code></td>
+<td style="text-align:left" col="Thanks to">minajuddin</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/NamadaIndia">https://t.me/NamadaIndia</a></td>
+<td style="text-align:left" col="Type">India</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>25</code></td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="https://www.equinoxdao.xyz">EquinoxDAO</a></td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/Namada_china">https://t.me/Namada_china</a></td>
-<td style="text-align:left">China</td>
-<td style="text-align:left"><!--members_count--><code>21</code></td>
+<td style="text-align:left" col="Thanks to"><a href="https://www.equinoxdao.xyz">EquinoxDAO</a></td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/Namada_china">https://t.me/Namada_china</a></td>
+<td style="text-align:left" col="Type">China</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>21</code></td>
 </tr>
 <tr>
-<td style="text-align:left">ixela</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namadaru">https://t.me/namadaru</a></td>
-<td style="text-align:left">CIS (Russian)</td>
-<td style="text-align:left"><!--members_count--><code>10</code></td>
+<td style="text-align:left" col="Thanks to">ixela</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namadaru">https://t.me/namadaru</a></td>
+<td style="text-align:left" col="Type">CIS (Russian)</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>10</code></td>
 </tr>
 <tr>
-<td style="text-align:left">paddyson</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/namada_german">https://t.me/namada_german</a></td>
-<td style="text-align:left">German</td>
-<td style="text-align:left"><!--members_count--><code>3</code></td>
+<td style="text-align:left" col="Thanks to">paddyson</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/namada_german">https://t.me/namada_german</a></td>
+<td style="text-align:left" col="Type">German</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>3</code></td>
 </tr>
 <tr>
-<td style="text-align:left">tr0uva1lle</td>
-<td style="text-align:left">Telegram</td>
-<td style="text-align:left"><a href="https://t.me/Namada_Ukraine">https://t.me/Namada_Ukraine</a></td>
-<td style="text-align:left">Ukraine</td>
-<td style="text-align:left"><!--members_count--><code>1</code></td>
+<td style="text-align:left" col="Thanks to">tr0uva1lle</td>
+<td style="text-align:left" col="Where?">Telegram</td>
+<td style="text-align:left" col="Link"><a href="https://t.me/Namada_Ukraine">https://t.me/Namada_Ukraine</a></td>
+<td style="text-align:left" col="Type">Ukraine</td>
+<td style="text-align:left" col="Members"><!--members_count--><code>1</code></td>
 </tr>
 <tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Matrix</td>
-<td style="text-align:left"><a href="https://matrix.to/#/#namada-public-testnets:matrix.org">https://matrix.to/#/#namada-public-testnets:matrix.org</a></td>
-<td style="text-align:left">English</td>
-<td style="text-align:left"></td>
+<td style="text-align:left" col="Thanks to"></td>
+<td style="text-align:left" col="Where?">Matrix</td>
+<td style="text-align:left" col="Link"><a href="https://matrix.to/#/#namada-public-testnets:matrix.org">https://matrix.to/#/#namada-public-testnets:matrix.org</a></td>
+<td style="text-align:left" col="Type">English</td>
+<td style="text-align:left" col="Members"></td>
 </tr>
 </tbody>
 </table>
 <h3>📰 Useful Articles</h3>
 <ul>
-<li><a href="./articles/ENGLISH.html">ENGLISH</a></li>
-<li><a href="./articles/UKRAINIAN.html">UKRAINIAN</a></li>
-<li><a href="./articles/chinese.html">CHINESE</a></li>
-<li><a href="./articles/turkish.html">TURKISH</a></li>
-<li><a href="./articles/vietnamese.html">VIETNAMESE</a></li>
-<li><a href="./articles/spanish.html">SPANISH</a></li>
-<li><a href="./articles/indonesian.html">INDONESIAN</a></li>
-<li><a href="./articles/russian.html">RUSSIAN</a></li>
+<li><a href="./articles/ENGLISH.html">English 🇬🇧</a></li>
+<li><a href="./articles/UKRAINIAN.html">Ukrainian 🇺🇦</a></li>
+<li><a href="./articles/chinese.html">Chinese 🇨🇳</a></li>
+<li><a href="./articles/turkish.html">Turkish 🇹🇷</a></li>
+<li><a href="./articles/vietnamese.html">Vietnamese 🇻🇳</a></li>
+<li><a href="./articles/spanish.html">Spanish 🇪🇸</a></li>
+<li><a href="./articles/indonesian.html">Indonesian 🇮🇩</a></li>
+<li><a href="./articles/russian.html">Russian 🇷🇺</a></li>
 </ul>
-<hr>
 <h3>📚 Documentation / Guides</h3>
 <table>
 <thead>
 <tr>
 <th style="text-align:left">Type</th>
 <th style="text-align:left">URL</th>
-<th>Status</th>
 <th>Thanks to</th>
+<th>Status</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Nodes &amp; Validator Guide</td>
-<td style="text-align:left"><a href="https://docs.namada.net/operators">https://docs.namada.net/operators</a></td>
-<td>🟡</td>
-<td><a href="https://namada.net">Namada</a></td>
+<td style="text-align:left" col="Type">Nodes &amp; Validator Guide</td>
+<td style="text-align:left" col="URL"><a href="https://docs.namada.net/operators">https://docs.namada.net/operators</a></td>
+<td col="Thanks to"><a href="https://namada.net">Namada</a></td>
+<td col="Status">✅</td>
 </tr>
 </tbody>
 </table>
@@ -238,19 +239,19 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://namada.net">Namada</a> (Under development)</td>
-<td><a href="https://namada.world/">https://namada.world/</a></td>
-<td>🟡</td>
+<td col="Thanks to"><a href="https://namada.net">Namada</a> (Under development)</td>
+<td col="URL"><a href="https://namada.world/">https://namada.world/</a></td>
+<td col="Status">✅</td>
 </tr>
 <tr>
-<td><a href="https://nodes.guru/">Nodes.guru</a></td>
-<td><a href="https://namada.explorers.guru/">https://namada.explorers.guru/</a></td>
-<td>🟡</td>
+<td col="Thanks to"><a href="https://nodes.guru/">Nodes.guru</a></td>
+<td col="URL"><a href="https://namada.explorers.guru/">https://namada.explorers.guru/</a></td>
+<td col="Status">✅</td>
 </tr>
 <tr>
-<td>gnosed</td>
-<td><a href="https://namadaexplorer.com/">https://namadaexplorer.com/</a></td>
-<td>🟡</td>
+<td col="Thanks to">gnosed</td>
+<td col="URL"><a href="https://namadaexplorer.com/">https://namadaexplorer.com/</a></td>
+<td col="Status">✅</td>
 </tr>
 </tbody>
 </table>
@@ -265,14 +266,14 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://namada.net">Namada</a></td>
-<td><a href="https://faucet.heliax.click/">https://faucet.heliax.click/</a></td>
-<td>🟡</td>
+<td col="Thanks to"><a href="https://namada.net">Namada</a></td>
+<td col="URL"><a href="https://faucet.heliax.click/">https://faucet.heliax.click/</a></td>
+<td col="Status">✅</td>
 </tr>
 <tr>
-<td><a href="https://luminara.icu/">Laminar</a></td>
-<td><a href="https://https://validatornet.luminara.icu/">https://https://validatornet.luminara.icu/</a></td>
-<td>⚫</td>
+<td col="Thanks to"><a href="https://luminara.icu/">Laminar</a></td>
+<td col="URL"><a href="https://https://validatornet.luminara.icu/">https://https://validatornet.luminara.icu/</a></td>
+<td col="Status">❌</td>
 </tr>
 </tbody>
 </table>
@@ -289,32 +290,32 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><a href="https://lavenderfive.com/">LavenderFive</a></td>
-<td style="text-align:left"><a href="https://lavenderfive.com/networks?id=namada">https://lavenderfive.com/networks?id=namada</a></td>
-<td style="text-align:left"><code>snapshot</code>, <code>api</code></td>
-<td style="text-align:left"><a href="https://namadaexplorer.com/">current public testnet</a></td>
-<td style="text-align:left">🟡</td>
+<td style="text-align:left" col="Thanks to"><a href="https://lavenderfive.com/">LavenderFive</a></td>
+<td style="text-align:left" col="URL"><a href="https://lavenderfive.com/networks?id=namada">https://lavenderfive.com/networks?id=namada</a></td>
+<td style="text-align:left" col="Description">snapshot, api</td>
+<td style="text-align:left" col="Network"><a href="https://namadaexplorer.com/">current public testnet</a></td>
+<td style="text-align:left" col="Status">✅</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="https://cryptosj.net/">CryptoSJ.net</a></td>
-<td style="text-align:left"><a href="https://cryptosj.net/namadaservice.html">https://cryptosj.net/namadaservice.html</a></td>
-<td style="text-align:left"><code>snapshot</code>,<code>addrbook</code>,<code>rpc</code>,<code>genesis</code> <code>peers</code></td>
-<td style="text-align:left"><a href="https://namadaexplorer.com/">current public testnet</a></td>
-<td style="text-align:left">🟡</td>
+<td style="text-align:left" col="Thanks to"><a href="https://cryptosj.net/">CryptoSJ.net</a></td>
+<td style="text-align:left" col="URL"><a href="https://cryptosj.net/namadaservice.html">https://cryptosj.net/namadaservice.html</a></td>
+<td style="text-align:left" col="Description">snapshot, addrbook, rpc, genesis peers</td>
+<td style="text-align:left" col="Network"><a href="https://namadaexplorer.com/">current public testnet</a></td>
+<td style="text-align:left" col="Status">✅</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="https://noders.team/">Noders</a></td>
-<td style="text-align:left"><a href="https://github.com/nodersteam/noderslabs/tree/main/NAMADA">https://github.com/nodersteam/noderslabs/tree/main/NAMADA</a></td>
-<td style="text-align:left">Scripts for node installation, monitoring, token request, etc</td>
-<td style="text-align:left"><a href="https://namadaexplorer.com/">current public testnet</a></td>
-<td style="text-align:left">🟡</td>
+<td style="text-align:left" col="Thanks to"><a href="https://noders.team/">Noders</a></td>
+<td style="text-align:left" col="URL"><a href="https://github.com/nodersteam/noderslabs/tree/main/NAMADA">https://github.com/nodersteam/noderslabs/tree/main/NAMADA</a></td>
+<td style="text-align:left" col="Description">Scripts for node installation, monitoring, token request, etc</td>
+<td style="text-align:left" col="Network"><a href="https://namadaexplorer.com/">current public testnet</a></td>
+<td style="text-align:left" col="Status">✅</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="https://github.com/encipher88">Encipher88</a></td>
-<td style="text-align:left"><a href="https://github.com/encipher88/namada">https://github.com/encipher88/namada</a></td>
-<td style="text-align:left">Scripts to check if you are proposer or signer</td>
-<td style="text-align:left"><a href="https://namadaexplorer.com/">current public testnet</a></td>
-<td style="text-align:left">🟡</td>
+<td style="text-align:left" col="Thanks to"><a href="https://github.com/encipher88">Encipher88</a></td>
+<td style="text-align:left" col="URL"><a href="https://github.com/encipher88/namada">https://github.com/encipher88/namada</a></td>
+<td style="text-align:left" col="Description">Scripts to check if you are proposer or signer</td>
+<td style="text-align:left" col="Network"><a href="https://namadaexplorer.com/">current public testnet</a></td>
+<td style="text-align:left" col="Status">✅</td>
 </tr>
 </tbody>
 </table>
@@ -330,10 +331,10 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><a href="https://node75.org/">Node75</a></td>
-<td style="text-align:left"><a href="https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&amp;refresh=15m">https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&amp;refresh=15m</a></td>
-<td>Check Namada network performance</td>
-<td style="text-align:left">🟡</td>
+<td style="text-align:left" col="Thanks to"><a href="https://node75.org/">Node75</a></td>
+<td style="text-align:left" col="URL"><a href="https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&amp;refresh=15m">https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&amp;refresh=15m</a></td>
+<td col="Description">Check Namada network performance</td>
+<td style="text-align:left" col="Status">✅</td>
 </tr>
 </tbody>
 </table>
@@ -349,10 +350,10 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><a href="https://zondax.ch/">Zondax</a></td>
-<td style="text-align:left"><a href="https://github.com/zondax/ledger-namada/">https://github.com/zondax/ledger-namada/</a></td>
-<td style="text-align:left">Client library to communicate with the Namada App running in a Ledger Nano S/X</td>
-<td style="text-align:left">🟡</td>
+<td style="text-align:left" col="Thanks to"><a href="https://zondax.ch/">Zondax</a></td>
+<td style="text-align:left" col="URL"><a href="https://github.com/zondax/ledger-namada/">https://github.com/zondax/ledger-namada/</a></td>
+<td style="text-align:left" col="Description">Client library to communicate with the Namada App running in a Ledger Nano S/X</td>
+<td style="text-align:left" col="Status">✅</td>
 </tr>
 </tbody>
 </table>

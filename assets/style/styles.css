@@ -1,10 +1,30 @@
 /* Sample CSS for GitHub-like Dark Theme */
 
+@font-face {
+  font-family: "SpaceGroteskRegular"; /* You can choose any name for your font family */
+  src: url("../fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+  /* Add additional font formats if your font comes with more files */
+}
+
+@font-face {
+  font-family: "SpaceGroteskBold";
+  src: url("../fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+}
+
 body {
-  background-color: #0e1116;
-  color: #c9d1d9;
-  font-family: Arial, sans-serif;
+  background-color: #ffff00;
+  color: #ffffff;
+  font-family: SpaceGroteskRegular, sans-serif;
   margin: 20px;
+  padding: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 1em 0;
   padding: 0;
 }
 
@@ -15,9 +35,49 @@ body {
   padding: 20px;
 }
 
+.social-icon {
+  height: 15px;
+  width: 15px;
+  transition: filter 0.5s ease; /* Set up the transition for the filter property */
+}
+
+.social-icon {
+  filter: none; /* Invert the colors for dark mode */
+}
+
+.social-icon:hover {
+  filter: invert(1); /* Remove the inversion on hover for dark mode */
+}
+
 a {
-  color: #58a6ff;
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00FFFF;
+  background: #000000;
+  transition: background-color 0.5s ease, color 0.5s ease;
   text-decoration: none;
+}
+
+p {
+  color: #000000;
+}
+
+h2,
+h1,
+h3,
+h4 {
+  color: #000000;
+}
+
+li::marker {
+  color: #000000;
+}
+
+li a {
+  font-size: 18px;
 }
 
 /* Style code blocks */
@@ -31,11 +91,10 @@ pre {
 }
 
 code {
-  background-color: #161b22;
-  color: #c9d1d9;
   padding: 2px 5px;
   border-radius: 3px;
-  font-family: 'Courier New', monospace;
+  font-family: "SpaceGroteskBold", sans-serif;
+  font-weight: bold;
 }
 
 /* Style table rows and cells */
@@ -43,39 +102,27 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-top: 20px;
-  border: 1px solid #30363d;
+  border: 1px solid #000000;
+  table-layout: fixed;
 }
 
-th, td {
-  border: 1px solid #30363d;
+th,
+td {
+  border: 1px solid #000000;
   padding: 10px;
   text-align: left;
+  word-break: break-word;
 }
 
-tr:nth-child(even) {
-  background-color: #161b22;
+td:last-child {
+  text-align: center !important;
 }
 
-tr:nth-child(odd) {
-  background-color: #0e1116;
+tr {
+  color: #000000;
 }
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  .markdown-body {
-    padding: 10px;
-  }
-
-  pre {
-    padding: 5px;
-  }
-
-  code {
-    padding: 1px 3px;
-  }
-}
-
-.banner-logo-container{
+.banner-logo-container {
   display: flex;
   justify-content: center;
 }
@@ -87,4 +134,37 @@ tr:nth-child(odd) {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    /*max-width: 550px;*/
+  }
+
+  table {
+    table-layout: fixed;
+    border: none;
+  }
+
+  thead {
+    display: none;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+
+  td {
+    display: block;
+    padding: 10px;
+    word-break: break-all;
+  }
+
+  td::before {
+    content: attr(col) ": ";
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
 }

@@ -10,8 +10,8 @@ const Status = {
     ALIVE: "alive",
 };
 
-const symbolDead = "⚫";
-const symbolAlive = "🟡";
+const symbolDead = "❌";
+const symbolAlive = "✅";
 
 const parsedTable = parseMarkdownTables(readmeContent);
 const allLinksFromUrlsClm = parsedTable
