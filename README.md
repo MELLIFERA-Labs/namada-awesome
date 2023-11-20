@@ -107,9 +107,11 @@
 
 ### 📚 Documentation / Guides
 
-| Type                    | URL                                 | Thanks to |  Status                    |
-|:----------------------- |:----------------------------------- |-----------| ---------------------------- |
-| Nodes & Validator Guide | <https://docs.namada.net/operators> |  [Namada](https://namada.net) | ✅       |
+| Description                                                                                                              | URL                                                                | Thanks to                              | Status |
+|:------------------------------------------------------------------------------------------------------------------------ |:------------------------------------------------------------------ |:-------------------------------------- |:------ |
+| Nodes & Validator Guide                                                                                                  | <https://docs.namada.net/operators>                                | [Namada](https://namada.net)           | ✅     |
+| Namada multilang documentation (UA, RU, more languages are coming). [Contribute](github.com/mellifera-labs/namada-docs)  | <https://docs-multilang.namada-awesome.net>                        | [MELLIFERA](https://mellifera.network) | ✅     |
+| Nodes & Validator Guide                                                                                                  | <https://github.com/itrocket-team/testnet_guides/tree/main/namada> | [ITRocket](https://itrocket.net/)      | ✅     |
 
 ## 🔭 Block explorers
 
