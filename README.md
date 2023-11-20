@@ -73,7 +73,7 @@
 
 | Where?   | Link                                | Type                                                                                                   | Members                      |
 | -------- |:----------------------------------- |:-------------------------------------------------------------------------------------------------------|:---------------------------- |
-| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`56,863` |
+| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`56,867` |
 | Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,303`  |
 | Reddit   | <https://reddit.com/r/namada>       | English                                                                                                | <!--members_count-->`1,279`  |
   
