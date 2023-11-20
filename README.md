@@ -73,20 +73,20 @@
 
 | Where?   | Link                                | Type                                                                                                   | Members                      |
 | -------- |:----------------------------------- |:-------------------------------------------------------------------------------------------------------|:---------------------------- |
-| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`56,175` |
-| Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,279`  |
-| Reddit   | <https://reddit.com/r/namada>       | English                                                                                                | <!--members_count-->`1,278`  |
+| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`56,863` |
+| Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,303`  |
+| Reddit   | <https://reddit.com/r/namada>       | English                                                                                                | <!--members_count-->`1,279`  |
   
 #### **Unofficial NAMADA Communities**
 
 | Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
-| ffego                                            | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`604` |
-| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`280` |
+| ffego                                            | Telegram | <https://t.me/namadaturkey>   | Turkey        | <!--members_count-->`601` |
+| [CaptainClogs](https://twitter.com/captainclogs) | Telegram | <https://t.me/namada_id>      | Indonesia     | <!--members_count-->`277` |
 |                                                  | Telegram | <https://t.me/NamadaTR>       | Turkey        | <!--members_count-->`257` |
 | SamuraiQQ                                        | Telegram | <https://t.me/Namada_CIS>     | CIS (Russian) | <!--members_count-->`94` |
-| [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus/>    | CIS (Russian) | <!--members_count-->`46` |
-| minajuddin                                       | Telegram | <https://t.me/NamadaIndia>    | India         | <!--members_count-->`42` |
+| [[NODERS]TEAM](https://noders.team/)             | Telegram | <https://t.me/namada_rus/>    | CIS (Russian) | <!--members_count-->`48` |
+| minajuddin                                       | Telegram | <https://t.me/NamadaIndia>    | India         | <!--members_count-->`44` |
 | Ramonsami                                        | Telegram | <https://t.me/namada_es>      | Spanish       | <!--members_count-->`30` |
 | [EquinoxDAO](https://www.equinoxdao.xyz)         | Telegram | <https://t.me/Namada_china>   | China         | <!--members_count-->`21` |
 | ixela                                            | Telegram | <https://t.me/namadaru>       | CIS (Russian) | <!--members_count-->`10` |
