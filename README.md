@@ -64,6 +64,15 @@
     </picture>  Website
   </a>
 </div>
+<div>
+  <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://forum.namada.net/" style="text-decoration: none; margin-left: 5px; display: inline-block;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/forum-yellow.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/forum-black.svg">
+      <img height="15" width="15" alt="Website icon" src="./assets/forum-black.svg">
+    </picture> Forum
+  </a>
+</div>
 
 ## Navigation
 
