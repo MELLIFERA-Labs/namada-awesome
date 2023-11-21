@@ -10,12 +10,14 @@
   font-family: "SpaceGroteskBold";
   src: url("../fonts/SpaceGrotesk-Bold.ttf") format("truetype");
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #ffff00;
   color: #ffffff;
   font-family: SpaceGroteskRegular, sans-serif;
-  margin: 20px;
+  margin: 0px;
   padding: 0;
 }
 
@@ -24,7 +26,6 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid #000000;
-  margin: 1em 0;
   padding: 0;
 }
 
@@ -47,6 +48,77 @@ hr {
 
 .social-icon:hover {
   filter: invert(1); /* Remove the inversion on hover for dark mode */
+}
+/** rounded corner div */
+.rounded-corner-div {
+  min-height: 100px;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 30px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.rounded-corner-div::after,
+.rounded-corner-div::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  /* to click through anytime */
+  border: solid 1px black;
+}
+
+.rounded-corner-div::after {
+  left: 10px;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.rounded-corner-div::before {
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  border-top: none;
+  border-bottom: none;
+}
+/** rounded corner div */
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+}
+.navigation-link {
+  padding: 30px 50px;
+  padding: 10px;
+}
+.official-links{
+  padding: 10px;
+}
+
+.header-wrap {
+  max-width: 100%;
+  min-height: 100vh;
+  display: grid;
+}
+.main-container-wrapper {
+  width: 60%;
+}
+.main-container {
+  padding: 30px 50px;
+}
+.main-container h1 {
+  font-size: 3em;
+}
+.main-container p {
+  font-size: 1.5em;
+}
+.header-container {
+  background: black;
+  height: 100px;
 }
 
 a {
@@ -127,7 +199,8 @@ tr {
   justify-content: center;
 }
 #banner-logo {
-  width: 50%;
+  padding-left: 50px;
+  width: 250px;
   margin: auto;
 }
 .content-container {
@@ -137,8 +210,15 @@ tr {
 }
 
 @media (max-width: 600px) {
-  .content-container {
-    /*max-width: 550px;*/
+  .rounded-corner-div {
+     margin: 10px;
+  }
+  .main-container-wrapper {
+    width: 100%;
+  }
+  .link-container {
+    flex-direction: column;
+    align-items: center;
   }
 
   table {
@@ -159,7 +239,6 @@ tr {
   td {
     display: block;
     padding: 10px;
-    word-break: break-all;
   }
 
   td::before {

@@ -6,30 +6,7 @@ const md = require("markdown-it")({
 const ARTICLES_READ_PATH = "articles";
 const ARTICLES_WRITE_PATH = "docs/articles";
 const markdownContent = fs.readFileSync("README.md", "utf8");
-const MainHtmlTemplate = (htmlContent, isMain = true) => `
-        <!DOCTYPE html>
-        <html lang="en">
-        <script src="./assets/scripts/change-image-color-on-hover.js"></script>
-        <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Namada Awesome</title>
-            <link rel="stylesheet" href="${
-              isMain ? "assets/style/styles.css" : "../assets/style/styles.css"
-            }">
-            <link rel="icon" type="image/png" sizes="32x32" href="${
-              isMain
-                ? "./assets/favicon-32x32.png"
-                : "../assets/favicon-32x32.png"
-            }">
-        </head>
-        <body>
-            <div class="content-container">
-                ${htmlContent}
-            </div>
-        </body>
-        </html>
-`;
+const { ArticleHtmlTemplate, MainHtmlTemplate } = require('./helper/templates.js');
 
 // const htmlContent = md.render(markdownContent);
 const generateArticlesHtml = () => {
@@ -40,7 +17,7 @@ const generateArticlesHtml = () => {
       "utf8"
     );
     const htmlContent = md.render(articleContent);
-    const htmlTemplate = MainHtmlTemplate(htmlContent, false);
+    const htmlTemplate = ArticleHtmlTemplate(htmlContent);
     const $ = cheerio.load(htmlTemplate);
     $("table").each((index, element) => {
       const tableHeaders = [];
@@ -69,8 +46,8 @@ const generateArticlesHtml = () => {
 };
 const generateMainHtml = () => {
   const htmlContent = md.render(markdownContent);
-  const html = MainHtmlTemplate(htmlContent);
-  const $ = cheerio.load(html);
+  // console.log(htmlContent)
+  const $ = cheerio.load(htmlContent);
   // remove this attributes
   $("source").each((index, element) => {
     $(element).removeAttr("srcset");
@@ -98,7 +75,11 @@ const generateMainHtml = () => {
     const htmlLink = mdLink.replace(".md", ".html");
     $(element).attr("href", htmlLink);
   });
-  fs.writeFileSync("docs/index.html", $.html(), "utf8");
+  // get only README content
+  const htmlAfterHr = $('hr').nextAll().map((index, element) => $.html(element)).get().join('');
+  const html = MainHtmlTemplate(htmlAfterHr);
+
+  fs.writeFileSync("docs/index.html", html, "utf8");
 
   console.log("HTML main file generated successfully.");
 };
