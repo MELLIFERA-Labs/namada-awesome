@@ -93,8 +93,8 @@
 
 | Where?   | Link                                | Type                                                                                                   | Members                      |
 | -------- |:----------------------------------- |:-------------------------------------------------------------------------------------------------------|:---------------------------- |
-| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`56,876` |
-| Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,303`  |
+| Discord  | <https://discord.com/invite/namada> | English, Turkish, Chinese, Indonesian, Spanish, Russian, Vietnamese, French, Ukrainian, Korean, Arabic | <!--members_count-->`57,013` |
+| Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,308`  |
 | Reddit   | <https://reddit.com/r/namada>       | English                                                                                                | <!--members_count-->`1,279`  |
   
 ### **Unofficial NAMADA Communities**
