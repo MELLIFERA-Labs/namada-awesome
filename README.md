@@ -68,7 +68,7 @@
 ## Navigation
 
 - [Сommunites](#🤝-communities)
-- [Useful Articles](#📰-Useful Articles)
+- [Useful Articles](#📰-useful-articles)
 - [Documentation / Guides](#📚-documentation-guides)
 - [Block explorers](#🔭-block-explorers)
 - [Faucets](#🚰-faucets)
