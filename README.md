@@ -13,7 +13,7 @@
 [![conventional commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge&logo=conventionalcommits)](https://conventionalcommits.org)
 [![lint](https://img.shields.io/github/actions/workflow/status/mellifera-labs/namada-awesome/lint.yml?label=Lint&style=for-the-badge&logo=github)](https://github.com/mellifera-labs/namada-awesome/actions/workflows/lint.yml)
 
-## Official NAMADA links
+## Official links
 
 <div>
   <a onmouseover="changeImage(this)" onmouseout="resetImage(this)" href="https://discord.com/invite/namada" style="text-decoration: none; margin-left: 5px; display: inline-block;">
@@ -65,9 +65,20 @@
   </a>
 </div>
 
+## Navigation
+
+- [Сommunites](#communities)
+- [Useful Articles](#useful-articles)
+- [Documentation / Guides](#documentation--guides)
+- [Block explorers](#block-explorers)
+- [Faucets](#faucets)
+- [Services](#services)
+- [Monitoring Dashboards](#monitoring-dashboards)
+- [Integrations](#integrations)
+
 ---
 
-### 🤝 Communities
+## 🤝 Communities
 
 #### **Offical NAMADA Communities**
 
@@ -94,7 +105,7 @@
 | tr0uva1lle                                       | Telegram | <https://t.me/Namada_Ukraine> | Ukraine       | <!--members_count-->`1` |
 |                                                  | Matrix   | <https://matrix.to/#/#namada-public-testnets:matrix.org> | English |    |
 
-### 📰 Useful Articles
+## 📰 Useful Articles
 
 - [English 🇬🇧](./articles/ENGLISH.md)
 - [Ukrainian 🇺🇦](./articles/UKRAINIAN.md)
@@ -105,7 +116,7 @@
 - [Indonesian 🇮🇩](./articles/indonesian.md)
 - [Russian 🇷🇺](./articles/russian.md)
 
-### 📚 Documentation / Guides
+## 📚 Documentation / Guides
 
 | Description                                                                                                              | URL                                                                | Thanks to                              | Status |
 |:------------------------------------------------------------------------------------------------------------------------ |:------------------------------------------------------------------ |:-------------------------------------- |:------ |
@@ -144,7 +155,7 @@
 |:------------------------------ |:-------------------------------------------------------------------------------------- | ---------------------------------- |:------ |
 | [Node75](https://node75.org/)  | <https://node75.org/mon/d/namada-testnet/namada-testnet-dashboard?orgId=1&refresh=15m>   | Check Namada network performance | ✅     |
 
-# 📦 Integrations
+## 📦 Integrations
 
 | Thanks to                                  | URL                                                         | Description                                                                                 | Status |
 |:------------------------------------------ |:----------------------------------------------------------- |:--------------------------------------------------------------------------------------------|:------ |
