@@ -137,7 +137,6 @@ const MainHtmlContent = (htmlContent) => `
 </div>    
 `
 const MainHtmlTemplate = (html) => {
-  console.log(html)
   return BaseHtmlTemplate(MainHtmlContent(html), true)
 };
 
