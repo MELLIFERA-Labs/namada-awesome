@@ -67,14 +67,14 @@
 
 ## Navigation
 
-- [Сommunites](#communities)
-- [Useful Articles](#useful-articles)
-- [Documentation / Guides](#documentation--guides)
-- [Block explorers](#block-explorers)
-- [Faucets](#faucets)
-- [Services](#services)
-- [Monitoring Dashboards](#monitoring-dashboards)
-- [Integrations](#integrations)
+- [Сommunites](#🤝-communities)
+- [Useful Articles](#📰-Useful Articles)
+- [Documentation / Guides](#📚-documentation-guides)
+- [Block explorers](#🔭-block-explorers)
+- [Faucets](#🚰-faucets)
+- [Services](#⚙️-services)
+- [Monitoring Dashboards](#📊-monitoring-dashboards)
+- [Integrations](#📦-integrations)
 
 ---
 
