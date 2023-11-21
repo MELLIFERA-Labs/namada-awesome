@@ -67,7 +67,7 @@
 
 ## Navigation
 
-- [Сommunites](#🤝-communities)
+- [Сommunites](#communities)
 - [Useful Articles](#📰-useful-articles)
 - [Documentation / Guides](#📚-documentation-guides)
 - [Block explorers](#🔭-block-explorers)
@@ -78,7 +78,7 @@
 
 ---
 
-## 🤝 Communities
+<h2 id="communities">🤝 Communities</h2>
 
 #### **Offical NAMADA Communities**
 
