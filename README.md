@@ -89,7 +89,7 @@
 
 <h2 id="communities">🤝 Communities</h2>
 
-#### **Offical NAMADA Communities**
+### **Offical NAMADA Communities**
 
 | Where?   | Link                                | Type                                                                                                   | Members                      |
 | -------- |:----------------------------------- |:-------------------------------------------------------------------------------------------------------|:---------------------------- |
@@ -97,7 +97,7 @@
 | Telegram | <https://t.me/namadaprotocol>       | English                                                                                                | <!--members_count-->`3,303`  |
 | Reddit   | <https://reddit.com/r/namada>       | English                                                                                                | <!--members_count-->`1,279`  |
   
-#### **Unofficial NAMADA Communities**
+### **Unofficial NAMADA Communities**
 
 | Thanks to                                        | Where?   | Link                          | Type          | Members                  |
 |:------------------------------------------------ |:-------- |:----------------------------- |:------------- |:------------------------ |
