@@ -159,7 +159,6 @@
 | [ITRocket](https://itrocket.net/)           | <https://itrocket.net/services/testnet/namada/>             | <ul><li>RPC scanner</li><li>RPC</li> <li>Peers</li> <li>Addrbook</li> <li>Snapshot</li> <li>Node install. guide</li><li>Automic node install.</li><li>Security advices</li></ul> | [current public testnet](https://namadaexplorer.com/) | ✅     |
 | [Arash](https://github.com/0x4r45h)              | <https://github.com/0x4r45h/namada-selfhost>             | <ul><li>Docker compose to easily sping up your local Namada blockchain <li>Namada Interface</li><li>Namada Browser Extension</li><li>Blog post to help run the stack</li></ul>                                                                                                                                   | Local chain (v27.0.0)                                 | ✅     |
 
-
 <h2 id="monitoring-dashboards"> 📊 Monitoring Dashboards </h2>
 
 | Thanks to                      | URL                                                                                    | Description                        | Status |
