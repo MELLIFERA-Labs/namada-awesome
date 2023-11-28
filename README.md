@@ -127,11 +127,12 @@
 
 <h2 id="documentation-guides">📚 Documentation / Guides</h2>
 
-| Description                                                                                                              | URL                                                                | Thanks to                              | Status |
-|:------------------------------------------------------------------------------------------------------------------------ |:------------------------------------------------------------------ |:-------------------------------------- |:------ |
-| Nodes & Validator Guide                                                                                                  | <https://docs.namada.net/operators>                                | [Namada](https://namada.net)           | ✅     |
-| Namada multilang documentation (UA, RU, more languages are coming). [Contribute](github.com/mellifera-labs/namada-docs)  | <https://docs-multilang.namada-awesome.net>                        | [MELLIFERA](https://mellifera.network) | ✅     |
-| Nodes & Validator Guide                                                                                                  | <https://github.com/itrocket-team/testnet_guides/tree/main/namada> | [ITRocket](https://itrocket.net/)      | ✅     |
+| Description                                                                                                              | URL                                                                 | Thanks to                                            | Status |
+|:------------------------------------------------------------------------------------------------------------------------ |:------------------------------------------------------------------- |:---------------------------------------------------- |:------ |
+| Nodes & Validator Guide                                                                                                  | <https://docs.namada.net/operators>                                 | [Namada](https://namada.net)                         | ✅     |
+| Namada multilang documentation (UA, RU, more languages are coming). [Contribute](github.com/mellifera-labs/namada-docs)  | <https://docs-multilang.namada-awesome.net>                         | [MELLIFERA](https://mellifera.network)               | ✅     |
+| Nodes & Validator Guide                                                                                                  | <https://github.com/itrocket-team/testnet_guides/tree/main/namada>  | [ITRocket](https://itrocket.net/)                    | ✅     |
+| Guide to applying as a Pre-genesis Validator                                                                             | <https://github.com/cryptobtcbuyer/Testnet_guides/tree/main/Namada> | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)  | ✅     |
 
 <h2 id="block-explorers">🔭 Block explorers</h2>
 
