@@ -38,7 +38,8 @@ Collection of community calls sorted by [[validator_call]] and [[community_call]
 ### [[articles | Articles]]
 Collection of articles by languages 
 ### [[Facts]]
-This dir used for facts to easy to search. For example, If user need to get info about testnets it by found by [[Testnets]] with related info.
+This dir used for facts to easy to search. For example, If the user needs to get info about testnets it can be found by typing [[Testnets]] in search.
+
 ### [[Scripts]]
 Collection of useful scripts for community
 ### [[Explorers]]
