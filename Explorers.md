@@ -17,7 +17,8 @@ This list of block explorers available for Namada:
 16. https://explorer.namada-cimbrin.tech/
 17. https://namada-explorer.dsrvlabs.dev/ 
 18. https://namada.explorers.guru/
-19. https://namada-explorer.thoalt.com/ 
+19. https://namada-explorer.thoalt.com/
+20. https://namadafinder.cryptosj.net/
     
 
 
