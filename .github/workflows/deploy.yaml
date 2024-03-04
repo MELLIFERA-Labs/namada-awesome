@@ -32,7 +32,7 @@ jobs:
       - name: Checkout namada-awesome
         uses: actions/checkout@v2
         with:
-         - path: 'namada-awesome'
+         path: 'namada-awesome'
       - name: Build Quartz 
         run: npx quartz build -d public 
       - name: Upload artifacts
