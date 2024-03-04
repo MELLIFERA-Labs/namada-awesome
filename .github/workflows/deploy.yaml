@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: 'mellifera-labs/quartz-namada-awesome'
-          ref: 'main'
+          ref: 'v4'
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
