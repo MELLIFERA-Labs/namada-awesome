@@ -21,7 +21,7 @@ jobs:
       - name: Chekout quartz repository
         uses: actions/checkout@v2
         with:
-          repository: 'mellifera-labs/namada-awesome-quartz'
+          repository: 'mellifera-labs/quartz-namada-awesome'
           ref: 'main'
       - name: Setup Node.js
         uses: actions/setup-node@v2
