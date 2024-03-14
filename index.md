@@ -25,7 +25,7 @@ description: Start page
 ### [[Communities]]
 List of official and unofficial communities of Namada
 ### [[Infrastructure]]
-Infrastructure from community for Namada, `rpc`, `indexers`, `spanshots`, `peers`, `addressbook` 
+Infrastructure from community for Namada, `rpc`, `indexers`, `snapshots`, `peers`, `addressbook` 
 ### [[Tools]]
 Collection of useful tools builded around Namada. 
 
